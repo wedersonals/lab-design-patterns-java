@@ -19,7 +19,7 @@ Behavioral
 
 References:
 
-https://sourcemaking.com/
-https://refactoring.guru/pt-br/design-patterns
-https://brizeno.wordpress.com/
+https://sourcemaking.com/<br>
+https://refactoring.guru/pt-br/design-patterns<br>
+https://brizeno.wordpress.com/<br>
 https://digitalinnovation.one/
