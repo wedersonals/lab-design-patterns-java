@@ -4,21 +4,21 @@ public class StrategyTest {
 
     public static void run() {
         System.out.println("\n> Strategy");
-        Comportamento normal = new ComportamentoNormal();
-        Comportamento agressivo = new ComportamentoAgressivo();
-        Comportamento defensivo = new ComportamentoDefensivo();
+        Behavior normal = new BehaviorNormal();
+        Behavior aggressive = new BehaviorAggressive();
+        Behavior defensive = new BehaviorDefensive();
 
-        Robo robo = new Robo();
-        robo.setComportamento(normal);
-        robo.mover();
-        robo.mover();
+        Robot robot = new Robot();
+        robot.setBehavior(normal);
+        robot.mover();
+        robot.mover();
 
-        robo.setComportamento(defensivo);
-        robo.mover();
-        robo.mover();
+        robot.setBehavior(defensive);
+        robot.mover();
+        robot.mover();
 
-        robo.setComportamento(agressivo);
-        robo.mover();
-        robo.mover();
+        robot.setBehavior(aggressive);
+        robot.mover();
+        robot.mover();
     }
 }

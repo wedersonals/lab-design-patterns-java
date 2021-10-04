@@ -10,25 +10,25 @@ public class SingletonTest {
 
     private static void testSingletonLazyHolder() {
         System.out.println("\n> Singleton - Test Lazy Holder");
-        SingletonLazyHolder lazyHolder = SingletonLazyHolder.getInstancia();
+        SingletonLazyHolder lazyHolder = SingletonLazyHolder.getInstance();
         System.out.println(lazyHolder);
-        lazyHolder = SingletonLazyHolder.getInstancia();
+        lazyHolder = SingletonLazyHolder.getInstance();
         System.out.println(lazyHolder);
     }
 
     private static void testSingletonEager() {
         System.out.println("\n> Singleton - Test Eager");
-        SingletonEager eager = SingletonEager.getInstancia();
+        SingletonEager eager = SingletonEager.getInstance();
         System.out.println(eager);
-        eager = SingletonEager.getInstancia();
+        eager = SingletonEager.getInstance();
         System.out.println(eager);
     }
 
     private static void testSingletonLazy() {
         System.out.println("> Singleton - Test Lazy");
-        SingletonLazy lazy = SingletonLazy.getInstancia();
+        SingletonLazy lazy = SingletonLazy.getInstance();
         System.out.println(lazy);
-        lazy = SingletonLazy.getInstancia();
+        lazy = SingletonLazy.getInstance();
         System.out.println(lazy);
     }
 }

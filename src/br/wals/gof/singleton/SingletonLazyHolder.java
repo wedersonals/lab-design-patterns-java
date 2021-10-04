@@ -9,14 +9,14 @@ package br.wals.gof.singleton;
 public class SingletonLazyHolder {
 
     private static class InstanceHolder {
-        public static SingletonLazyHolder instancia = new SingletonLazyHolder();
+        public static SingletonLazyHolder instance = new SingletonLazyHolder();
     }
 
     private SingletonLazyHolder() {
         super();
     }
 
-    public static SingletonLazyHolder getInstancia() {
-        return InstanceHolder.instancia;
+    public static SingletonLazyHolder getInstance() {
+        return InstanceHolder.instance;
     }
 }

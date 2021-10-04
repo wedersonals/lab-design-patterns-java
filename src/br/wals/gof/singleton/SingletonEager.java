@@ -6,13 +6,13 @@ package br.wals.gof.singleton;
  */
 public class SingletonEager {
 
-    private static SingletonEager instancia = new SingletonEager();
+    private static SingletonEager instance = new SingletonEager();
 
     private SingletonEager() {
         super();
     }
 
-    public static SingletonEager getInstancia() {
-        return instancia;
+    public static SingletonEager getInstance() {
+        return instance;
     }
 }

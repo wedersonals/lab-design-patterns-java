@@ -6,15 +6,15 @@ package br.wals.gof.singleton;
  */
 public class SingletonLazy {
 
-    private static SingletonLazy instancia;
+    private static SingletonLazy instance;
 
     private SingletonLazy() {
         super();
     }
 
-    public static SingletonLazy getInstancia() {
-        if (instancia == null)
-            instancia = new SingletonLazy();
-        return instancia;
+    public static SingletonLazy getInstance() {
+        if (instance == null)
+            instance = new SingletonLazy();
+        return instance;
     }
 }
