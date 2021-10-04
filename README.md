@@ -15,3 +15,11 @@ Structural
 Behavioral
 - Chain of Responsability
 - Strategy
+
+
+References:
+
+https://sourcemaking.com/
+https://refactoring.guru/pt-br/design-patterns
+https://brizeno.wordpress.com/
+https://digitalinnovation.one/
