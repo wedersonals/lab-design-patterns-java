@@ -4,6 +4,7 @@ import br.wals.gof.abstractfactory.AbstractFactoryTest;
 import br.wals.gof.adapter.AdapterTest;
 import br.wals.gof.bridge.BridgeTest;
 import br.wals.gof.builder.BuilderTest;
+import br.wals.gof.chainofresponsability.ChainOfResponsabilityTest;
 import br.wals.gof.decorator.DecoratorTest;
 import br.wals.gof.facade.FacadeTest;
 import br.wals.gof.factory.FactoryTest;
@@ -14,12 +15,13 @@ import br.wals.gof.strategy.StrategyTest;
 public class Test {
 
     public static void main(String[] args) {
-        runBehavioralDesignPatterns();
         runCreationalDesignPatterns();
         runStructuralDesignPatterns();
+        runBehavioralDesignPatterns();
     }
 
     private static void runBehavioralDesignPatterns() {
+        ChainOfResponsabilityTest.run();
         StrategyTest.run();
     }
 

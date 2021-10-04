@@ -13,4 +13,5 @@ Structural
 - Facade
 
 Behavioral
+- Chain of Responsability
 - Strategy
